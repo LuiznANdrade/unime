@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
+html{
+    overflow: hidden !important;
+    width: 100%;
+    height: 100vh;
+}
+
+*{
+    font-family: "Signika", sans-serif;
+    text-transform: uppercase;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+.container-geral{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    gap: 15px;
+    padding-top: 7vh;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.meio{
+    width: 100%;
+    border-radius: .9vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 40px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.678);
+    color: white;
+
+}
+
+.loading{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3vw;
+    font-weight: 300 !important;
+    color: #666666;
+}
+
+.loading img{
+    width: 30%;
+    margin-bottom: -2.5vh;
+}
+
+
+.historico-item{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #413939;
+    background-color: #00000015;
+    border-radius: 5px;
+}
+
+#historico-senhas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.historico-item img{
+    width: 5vh;
+    border-radius: 5px;
+}
+
+.baixo{
+    width: 125%;
+    border-radius: 5px;
+    height: auto;
+}
+
+.baixo h1{
+    font-size: 18px;
+    color: #413939;
+}
+
+
+.nameFacul{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+    font-size: 10px;
+    color: #413939cc;
+    height: 3vh;
+}
+
+
+/* ENFEITES NA TELA */
+
+#textura{
+    position: absolute;
+    zoom: 0.85;
+    top: -20px;
+    width: 150%;
+    left: 0px;
+    opacity: 20%;
+}
+
+#points{
+    width: 13vh;
+    position: absolute;
+    bottom: -7vh;
+    opacity: 25%;
+    zoom: 0.80;
+    animation: bolinhas 5s infinite ease-in-out;
+}
+
+#vempor{
+    position: absolute;
+    right: 0px;
+    width: 10vh;
+    bottom: 10%;
+    animation: vempor 5s infinite ease-in-out;
+}
+
+@keyframes vempor {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+.cima img{
+    width: 75%;
+}
+
+.cima{
+    width: 130%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+.textura-container{
+    width: 100%;
+    overflow: hidden;
+}
+
+#logotype{
+    width: 50%;
+}
